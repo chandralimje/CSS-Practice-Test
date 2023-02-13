@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+    width: 100vw;
+}
+
+.parent{
+    font-size: 16px;
+    border: 1px solid red;
+}
+
+#heading1{
+    /* font-size: 30px; */
+    color: coral;
+    text-align: left;
+}
+#heading2{
+    /* font-size: 3em; */
+    color: darkolivegreen;
+    text-align: center;
+}
+
+#heading3{
+    /* font-size: 3rem; */
+    color: indigo;
+    text-align: right;
+}
+
+#box{
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 11px;
+}
+
+#para1{
+    font-size: 20px;
+    background-color: aqua;
+    padding: 12px;
+    margin: 2.5px;
+    border: 3px solid darkorchid;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#para2{
+    font-size: 20px;
+    background-color: aqua;
+    padding: 12px;
+    margin: 2.5px;
+    border: 3px solid darkorchid;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#para3{
+    font-size: 20px;
+    background-color: aqua;
+    padding: 12px;
+    margin: 2.5px;
+    border: 3px solid darkorchid;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.goal{
+    width: 14rem;
+    height: 7rem;
+    margin: 6px;
+}
+
+#goal1{
+    background-color: rgb(94, 114, 58);
+    position: relative;
+    z-index: 2;
+    left: 13rem;
+}
+
+#goal2{
+    background-color: rgb(192, 60, 60);
+    position: relative;
+    top: -2rem;
+    left: 3rem;
+    z-index: 3;
+}
+
+#goal3{
+    background-color: rgb(44, 170, 44);
+    position: relative;
+    top: -4rem;
+    left: 13rem;
+}
+
+.gems{
+    background-color: darkkhaki;
+    padding: 12px;
+    margin: 1.5rem;
+    border: 3px solid black;
+    font-weight: 600
+}
+
+#gems1{
+    font-family: 'Lobster', cursive;
+}
+
+#gems2{
+    font-family: 'Pacifico', cursive;
+}
+
+#gems3{
+    font-family: 'Shadows Into Light', cursive;
+}

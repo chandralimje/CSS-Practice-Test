@@ -1,0 +1,60 @@
+/* html{
+    font-size: 70px;
+} */
+
+body{
+    background-color: lightgreen;
+}
+
+div{
+    border: 2px solid darkorchid;
+    /* padding: 5px; */
+    margin: 9px;
+}
+
+#pixelbox{
+    padding: 4px;
+}
+
+#embox{
+    padding: 4em;
+}
+
+#rembox{
+    padding: 2rem;
+}
+
+#unit{
+    font-size: 22px;
+}
+
+#emboxdiv{
+    font-size: 2em;
+}
+
+#remboxdiv{
+    font-size: 2rem;
+}
+
+#percentbox{
+    width: 50%;
+}
+
+#vhvwbox{
+    width: 50vw;
+    height: 40vh;
+}
+
+#parent{
+    height: 60vh;
+}
+
+#childpercent{
+    width: 50%;
+    height: 25%;
+}
+
+#childvh{
+    width: 50%;
+    height: 25vh;
+}

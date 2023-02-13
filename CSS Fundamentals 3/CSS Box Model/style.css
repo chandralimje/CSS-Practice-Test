@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(29, 185, 233);
+}
+
+#box{
+    border: 3px solid rgb(61, 21, 204);
+    padding: 10px;
+    margin: 12px;
+    outline: 10px solid lightcoral;
+    
+}

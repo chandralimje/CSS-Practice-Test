@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* p{
+    background-color: cornflowerblue;
+    width: 40rem;
+    float: right;
+    float: left;
+    text-align: justify;
+} */
+
+.content{
+    background-color: darkcyan;
+    margin: 1rem;
+}
+
+#bot{
+    background-color: rgb(51, 202, 152);
+    width: 9rem;
+    padding: 9px;
+    color: rgb(54, 35, 107);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 65rem;
+    /* bottom: 6rem; */
+}
+#bot:hover{
+    background-color: cyan;
+    transition: 1s;
+}
+#bot2{
+    background-color: rgb(109, 109, 36);
+    padding: 9px;
+    width: 9rem;
+    color: lightpink;
+    border: none;
+    cursor: pointer;
+    /* position: absolute; */
+    /* top: 25rem; */
+    right: 35rem;
+    /* left: 15rem;
+    bottom: 20rem; */
+}
+.con2{
+    position: relative;
+}
+#bot3{
+    padding: 9px;
+    width: 8rem;
+    background-color: dodgerblue;
+    position: fixed;
+    right: 4rem;
+}
+marquee{
+    background-color: darkorange;
+    font-size: 22px;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}

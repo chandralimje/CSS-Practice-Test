@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fundamentals</title>
+    <style>
+       #prop,
+       #prop3  {
+        background-color: blue;
+        color: white;
+       }
+       /* #prop p {
+        background-color: aqua;
+        color: black;
+       } */
+       #prop > p {
+        background-color: aqua;
+        color: black;
+       }
+       #prop3 + h1 {
+        background-color: blueviolet;
+       }
+       #prop3 ~ h1 {
+        background-color: blueviolet;
+        color: cadetblue;
+       }
+       
+       a{
+        background-color: rgb(220, 157, 20);
+       }
+       a:hover{
+        background-color: rgb(10, 204, 218);
+        padding: 12px;
+       }
+       .para:hover{
+        background-color: rgb(0, 255, 128);
+        cursor: pointer;
+        transition: 6s;
+        padding: 3rem;
+        font-size: large;
+       }
+       .para2::first-line{
+        background-color: dimgrey;
+        padding: 30px;
+       }
+       .para2::first-letter{
+        color: black;
+        font-size: 30px;
+       }
+       li:first-child{
+        background-color: gold;
+       }
+       li:last-child{
+        background-color: gold;
+       }
+       li:nth-child(2){
+        background-color: rgba(34, 30, 9, 0.925);
+       }
+       button{
+        padding: 10px;
+        width: 12rem;
+        cursor: pointer;
+        border: none;
+        background-color: greenyellow;
+        border-radius: 9px;
+       }
+       button:hover{
+        background-color: khaki;
+       }
+       input{
+        padding: 8px;
+        width: 40%;
+        outline: none;
+       }
+       input[type="submit"]{
+        width: 15%;
+       }
+       form{
+        background-color: orchid;
+        padding: 2rem;
+       }
+    </style>
+    </head>
+<body>
+    <div id="prop">
+        <h1> Hello </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, illum? </p>
+        <h1> Hello </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, illum?</p>
+        <span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fuga!</p>
+        </span>
+    </div>
+
+        <h1> Hello </h1>
+        <button>Click here</button>
+
+        
+    <div id="prop3">
+        <h1> Hello </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, illum? </p>
+        <h1> Hello </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, illum?</p>
+        <span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fuga!</p>
+        </span>
+    </div>
+        <h1> heading </h1>
+        <h1> paragraph </h1>
+        <h1> bottle </h1>
+        <h1> mango </h1>
+    <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur nobis optio rerum similique ratione eaque ipsa explicabo, est assumenda porro dolores odit animi soluta vero enim ad quae nam alias hic fuga quia facilis. Doloribus facilis dolore odio nesciunt voluptatem corporis hic unde, deleniti molestias assumenda, reiciendis vel beatae. Eveniet mollitia cupiditate beatae aut asperiores, cum dignissimos deserunt natus similique assumenda unde commodi sequi ipsa? Soluta vitae hic debitis delectus iste numquam, nam sunt. Corrupti vitae alias quidem earum. Impedit, voluptatem facilis eaque ipsam qui aperiam aut nihil? Nostrum voluptatibus est reiciendis quasi consequatur atque perspiciatis qui itaque fuga.
+    </p>
+    <hr/>
+    <hr/>
+    <h1>pseudo classes and elements:</h1>
+
+    <a href="http://instagram.com" id="insta">Instagram</a>
+    <a href="http://Facebook.com" id="Facebook">Facebook</a>
+    <p class="para2">
+        ipsum dolor sit amet consectetur, adipisicing elit. Corporis sunt hic natus odit reprehenderit, vitae numquam ad odio consequatur magnam delectus quod, nisi harum iure. Modi excepturi ducimus ex corrupti aliquam dolor natus, dicta laudantium fugiat! Accusamus nostrum sequi eius ducimus reiciendis fugiat eos! Iste perspiciatis officiis tempora blanditiis excepturi rem maiores ullam maxime commodi mollitia! Fugit autem consequatur aliquid repudiandae quod a nobis quibusdam animi voluptatum quos et deserunt quae neque earum enim ea porro dolore, ex expedita ratione quaerat culpa dicta maiores. Exercitationem quo mollitia commodi sed rerum! Sequi recusandae doloribus illo ex ullam, voluptate tempora sapiente perspiciatis.
+    </p>
+
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Avocodo</li>
+    </ul>
+    <form>
+        <input type="text" placeholder="Enter your first name"/>
+        <input type="text"placeholder="Enter your last name"/>
+        <input type="submit" value="click here">
+    </form>
+</body>
+</html>
